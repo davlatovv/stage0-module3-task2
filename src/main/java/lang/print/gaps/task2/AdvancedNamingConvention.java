@@ -5,11 +5,11 @@ public class AdvancedNamingConvention {
     private int age;
     private int phoneNumber;
 
-    void CAllToFriend() {
+    void CallToFriend() {
         System.out.println("Call to my friend" + phoneNumber);
     }
 
-    public static void callByNumber(int Number) {
+    public static void CallByNumber(int Number) {
         System.out.println("My number" + Number);
     }
 }
